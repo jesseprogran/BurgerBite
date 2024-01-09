@@ -346,6 +346,14 @@ a.navbar-brand {
     padding-bottom: 150px;
 }
 
+.background-depoimentos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 500px;
+    background-image: url(../img/bg-icons-1.png);
+}
+
 .card-depoimentos {
     height: 390px;
     width: 390px;
