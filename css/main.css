@@ -40,9 +40,11 @@ b {
     color: var(--color-primary);
 }
 
-.img-logo  {
-    box-shadow: 0 8px 1px 0px var(--color-primary);
+.img-logo {
+    width: 100px;
+    border-radius: 50px;
 }
+
 
 a.navbar-brand {
     margin-left: -35px;
@@ -467,8 +469,11 @@ footer {
     background-color: #f0be6e3f;
 }
 
+
 .logo-footer {
-    width: 150px;
+    margin-top: 10px;
+    width: 50px;
+    border-radius: 50px;
 }
 
 .container-logo-footer,
@@ -780,4 +785,23 @@ select.form-control {
 
 .toast.green {
     background-color: var(--color-green);
+}
+
+.carrinho-vazio {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.carrinho-vazio i {
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
 }
