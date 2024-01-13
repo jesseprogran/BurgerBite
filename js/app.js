@@ -156,6 +156,30 @@ cardapio.metodos = {
 
     },
 
+    // abrir modal carrinho
+    abrirCarrinho: (abrir) => {
+
+        if (abrir) {
+            $("#modalCarrinho").removeClass('hidden');
+        }
+        else {
+            $("#modalCarrinho").addClass('hidden');
+        }
+
+
+    },
+
+
+
+
+
+
+
+
+
+
+
+
     // mensagens
     mensagem: (texto, cor = 'red', tempo = 3500) => {
 
