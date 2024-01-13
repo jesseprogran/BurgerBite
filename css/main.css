@@ -40,6 +40,10 @@ b {
     color: var(--color-primary);
 }
 
+.img-logo  {
+    box-shadow: 0 8px 1px 0px var(--color-primary);
+}
+
 a.navbar-brand {
     margin-left: -35px;
 }
